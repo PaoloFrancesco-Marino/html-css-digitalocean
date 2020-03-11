@@ -5,8 +5,9 @@
 
 /* header */
 .digital-ocean-navbar {
-  padding: 20px 0;
+  padding-top: 19px;
   line-height: 50px;
+  background-color: #fff;
 }
 
 .digital-ocean-navbar img {
@@ -17,6 +18,7 @@
   text-decoration: none;
   color: #031b4e;
   font-weight: 500;
+  font-size: 15px;
 }
 
 .digital-ocean-navbar li a:hover {
@@ -35,12 +37,44 @@
 /* element arrow */
 .arrow-odd li:nth-child(odd) a::after,
 .arrow-even li:nth-child(2) a::after {
-  content: "\f0d7";
+  content: "\f078";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
-  font-size: 20px;
-  color: #7c98b6;
-  padding: 0 5px;
+  color: #031b4e;
+  padding-left: 5px;
   vertical-align: bottom;
 }
 /* end header */
+
+/* utilities */
+.pos-relative {
+  position: relative;
+}
+/* end utilities */
+
+/* jumbotron */
+.digital-ocean-jumbotron {
+  background-image: url(../assets/bg-banner-home.jpg);
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  padding: 40px 0;
+}
+
+.jumbotron-box {
+  position: absolute;
+  height: 300px;
+  width: 420px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%);
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.jumbotron-box h3 {
+  color: #006aff;
+}
