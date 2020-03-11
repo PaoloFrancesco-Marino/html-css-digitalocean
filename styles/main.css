@@ -258,9 +258,39 @@
 
 .the-features {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .the-features h2 {
   font-size: 40px;
   color: #031c4e;
+  margin-bottom: 40px;
+}
+
+.the-features h4 {
+  color: #031c4e;
+}
+
+.the-features p {
+  color: #5c6a88;
+  font-size: 16px;
+}
+
+.the-features img {
+  margin-bottom: 20px;
+}
+
+.the-features a {
+  text-decoration: none;
+  color: #006aff;
+  font-size: 16px;
+}
+
+.the-features a::after {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #006aff;
+  padding-left: 5px;
+  vertical-align: bottom;
 }
