@@ -151,3 +151,61 @@
   padding-left: 5px;
   vertical-align: bottom;
 }
+/* end innovative-business */
+
+/* Deploy */
+/* Deploy title */
+.deploy-and-scale {
+  padding-top: 30px;
+}
+
+.deploy-and-scale .deploy-title h2 {
+  font-size: 40px;
+}
+
+.deploy-and-scale .deploy-title p {
+  font-size: 20px;
+  color: #5c6a88;
+  font-weight: 500;
+  margin-top: 15px;
+}
+/* deploy col-style */
+/* col-sx */
+.deploy-col-style li {
+  border-left: 1px solid #ccc;
+  padding: 10px 0;
+}
+.deploy-col-style li a {
+  text-decoration: none;
+  color: #5c6a88;
+  font-size: 20px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+/* col-center col-dx */
+.deploy-col-style {
+  padding: 20px;
+}
+
+.deploy-col-style img {
+  margin-bottom: 20px;
+}
+
+.deploy-col-style p {
+  margin-bottom: 20px;
+}
+
+.deploy-col-style h4 {
+  color: #031c4e;
+}
+
+.deploy-col-style p {
+  color: #5c6a88;
+  font-size: 16px;
+}
+
+.col-lg-4:nth-child(3) .deploy-col-style img:nth-of-type(2) {
+  margin-top: 40px;
+}
