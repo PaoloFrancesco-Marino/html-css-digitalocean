@@ -55,26 +55,61 @@
 /* jumbotron */
 .digital-ocean-jumbotron {
   background-image: url(../assets/bg-banner-home.jpg);
-  height: 500px;
+  height: 430px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 80px;
   padding: 40px 0;
 }
+/* jumbotrone col-sx */
+.digital-ocean-jumbotron h1 {
+  font-size: 60px;
+  color: #fff;
+}
 
+.digital-ocean-jumbotron p {
+  font-size: 22px;
+  color: #bbcdff;
+}
+
+/* junbotron col-dx */
 .jumbotron-box {
   position: absolute;
-  height: 300px;
+  height: 350px;
   width: 420px;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, 20%);
+  transform: translateX(-50%);
   background-color: #fff;
   border-radius: 10px;
-  padding: 10px 20px;
+  padding: 0 20px;
 }
 
 .jumbotron-box h3 {
   color: #006aff;
+}
+
+.jumbotron-btn-account {
+  color: #fff;
+  background: #579aff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.jumbotron-btn-google {
+  width: 100%;
+  box-shadow: 2px 2px #ccc;
+  margin-bottom: 10px;
+}
+
+.digital-ocean-jumbotron form input {
+  margin-bottom: 10px;
+}
+
+.button-google img {
+  position: absolute;
+  width: 20px;
+  left: 5px;
+  top: 10px;
 }
