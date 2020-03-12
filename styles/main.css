@@ -608,6 +608,7 @@
     height: 650px;
     padding: 20px 0;
   }
+  
   .col-sx-customers,
   .col-dx-customers {
     padding: 10px;
@@ -663,11 +664,5 @@
 
   .box-shark {
     margin-bottom: 10px;
-  }
-}
-
-@media all and (max-width: 564px)  {
-  .digital-ocean-jumbotron {
-    height: 940px;
   }
 }
