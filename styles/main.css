@@ -529,3 +529,73 @@
 .footer-link-style li a:hover {
   color: #fff;
 }
+
+/* fixed-bar-bottom */
+
+.help {
+  position: relative;
+  width: 300px;
+  height: 60px;
+  background:#fff;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.help p {
+  color: #031c4e;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.help::before {
+  content: '';
+  position: absolute;
+  bottom: 15px;
+  right: -5px;
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+
+.box-shark {
+  position: relative;
+  height: 55px;
+  width: 55px;
+  background-color: #006aff;
+  border-radius: 10px;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+.box-shark::before {
+  content: '';
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.red-circle {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: red;
+  top: 0;
+  right: 0;
+  transform: translate(30%, -30%)
+}
+
+.red-circle span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-100%, 10%);
+  color: #fff;
+  font-weight: 500;
+}
