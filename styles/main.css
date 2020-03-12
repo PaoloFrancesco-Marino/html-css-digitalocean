@@ -403,7 +403,7 @@
 /* development teams */
 .development-teams {
   background-color: #f3f5f9;
-  height: 620px;
+  height: 650px;
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -531,9 +531,9 @@
 }
 
 /* fixed-bar-bottom */
-
 .help {
   position: relative;
+  max-width: 100%;
   width: 300px;
   height: 60px;
   background:#fff;
@@ -571,33 +571,102 @@
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
 }
 
-.box-shark::before {
-  content: '';
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background: #fff;
-}
-
 .red-circle {
   position: absolute;
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
+  border: 4px solid #fff;
   border-radius: 50%;
   background: red;
   top: 0;
   right: 0;
-  transform: translate(30%, -30%);
+  transform: translate(50%, -50%);
 }
 
 .red-circle span {
   position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(-100%, 10%);
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
   color: #fff;
   font-weight: 500;
+}
+
+.menu-light {
+  text-align: right;
+  width: 100%;
+  font-size: 20px;
+  display: none;
+}
+
+/* end fixed-bar-bottom */
+
+/* Responsive */
+@media all and (max-width: 1199px) {
+  .customers {
+    height: 650px;
+    padding: 20px 0;
+  }
+  .col-sx-customers,
+  .col-dx-customers {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .footer-digitalocean {
+    height: 1000px;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .menu-light {
+    display: block;
+  }
+
+  .digital-ocean-navbar img {
+    margin-top: 10px;
+  }
+
+  .menu-dx,
+  .menu-center {
+    display: none;
+  }
+
+  .digital-ocean-jumbotron {
+    height: 780px;
+  }
+  .customers {
+    height: 700px;
+    padding: 20px 0;
+  }
+
+  .col-sx-customers,
+  .col-dx-customers {
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .footer-digitalocean {
+    height: 1550px;
+  }
+
+  .innovative-img-calc img {
+    width: calc((100% / 2) - 5px);
+  }
+}
+
+@media all and (max-width: 768px) {
+  .help {
+    display: none;
+  }
+
+  .box-shark {
+    margin-bottom: 10px;
+  }
+}
+
+@media all and (max-width: 564px)  {
+  .digital-ocean-jumbotron {
+    height: 940px;
+  }
 }
