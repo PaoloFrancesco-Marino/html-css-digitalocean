@@ -238,20 +238,59 @@
   padding: 20px;
 }
 
-.arrow::before {
+.arrow-designed {
+  position: relative;
+}
+
+.arrow-designed::before {
+  position: absolute;
   content: "\f053";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: #5c6a88;
   font-size: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 30px;
 }
 
-.arrow::after {
+.arrow-designed::after {
+  position: absolute;
   content: "\f054";
   font-family: "Font Awesome 5 Free";
   font-weight: 900;
   color: #5c6a88;
   font-size: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 30px;
+}
+
+.arrow {
+  position: relative;
+}
+.arrow::before {
+  position: absolute;
+  content: "\f053";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #5c6a88;
+  font-size: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -40px;
+}
+
+.arrow::after {
+  position: absolute;
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #5c6a88;
+  font-size: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -40px;
 }
 
 .circle-icon {
@@ -259,6 +298,10 @@
   border-radius: 50%;
   padding: 2px 6px;
   font-size: 6px;
+}
+
+ .active a {
+  background: #006aff;
 }
 
 .circle-icon:hover {
@@ -365,8 +408,6 @@
   padding-bottom: 50px;
 }
 
-.prova {
-}
 .development-box-white {
   max-width: 100%;
   background: #fff;
