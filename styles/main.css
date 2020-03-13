@@ -608,9 +608,6 @@
 }
 
 @media all and (max-width: 992px) {
-  .digital-ocean-navbar img {
-    margin-top: 10px;
-  }
   .col-sx-customers,
   .col-dx-customers {
     padding: 10px 15px;
