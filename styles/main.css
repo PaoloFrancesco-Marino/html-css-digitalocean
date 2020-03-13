@@ -580,3 +580,8 @@
       width: calc((100% / 2) - 5px);
     }
   }
+/* media-queries created to fix a bug with bootstrap that did not apply media-queries */
+  @media (min-width: 768px) {
+    .container {
+    width: 100%;}
+  }
