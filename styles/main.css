@@ -510,6 +510,11 @@
 /* end FOOTER */
 
 /* BOTTOM-BAR-Fixed */
+  .fixed-bar-bottom {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+  }
   .help-chat {
     position: relative;
     max-width: 100%;
@@ -517,7 +522,6 @@
     height: 60px;
     background:#fff;
     border-radius: 10px;
-    margin-bottom: 10px;
     padding: 10px;
     filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
     float: right;
@@ -548,7 +552,6 @@
     border-radius: 10px;
     margin-top: 5px;
     padding-top: 10px;
-    margin-bottom: 10px;
     filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.4));
   }
 
