@@ -584,8 +584,9 @@
       width: calc((100% / 2) - 5px);
     }
   }
-/* media-queries created to fix a bug with bootstrap that did not apply media-queries */
-  @media (min-width: 768px) {
-    .container {
-    width: 100%;}
-  }
+
+  /* media-queries created to fix a bug with bootstrap that did not apply media-queries, I remove this media query, because it fixes mobile, but it creates problems in the desktop version */
+    /* @media (min-width: 768px) {
+      .container {
+      width: 100%;}
+    } */
